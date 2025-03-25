@@ -15,7 +15,7 @@ function App() {
   };
   return (
     <section className="flex justify-center items-center min-h-screen">
-      <section className="p-5 shadow-xl rounded-xl bg-green-100 h-96 w-[90%] max-w-md">
+      <section className="p-5 shadow-xl rounded-xl bg-green-100 h-96 w-[90%] max-w-md overflow-y-scroll">
         <form onSubmit={updateTasks} className="flex justify-between gap-5">
           <input
             type="text"
